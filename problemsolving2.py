@@ -42,12 +42,33 @@
 
 
 #2 prime numbers
+# stringtointeger = int
+# # allnumbers = range(stringtointeger)
+
 def convert_items(stringtointeger):
     stringtointeger = int(stringtointeger)
     return stringtointeger
 
-user_input = input('please pick a number')
+# user_input = input('please pick a number: ')
 
-def prime_number():
+# def prime_number(comput):
+#     convert_items(user_input)
+#     comput = stringtointeger
+#     while comput in (len(user_input)) -1 > 0:
+#         convert_items(comput)
+#         comput = (user_input % user_input)
+#         comput != 0 
+
+# prime_number(user_input)
+
+# allnumbers = range(stringtointeger)
+
+def prime_number2(user_input):
+    user_input = input('How high would you like me to check for prime numbers?: ')
+    stringtointeger = ""
     convert_items(user_input)
-    
+    user_pref = ''
+    user_pref = stringtointeger
+
+
+prime_number2(10)
