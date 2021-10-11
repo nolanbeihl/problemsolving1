@@ -1,5 +1,8 @@
 
-#number = input('Can you find a happy number?: ' )
+number_check = input('Can you find a happy number?: ' )
+
+from problemsolving2 import number_check
+
 
 def pdi_function(number, base: int = 10):
     """Perfect digital invariant function."""
@@ -17,10 +20,9 @@ def is_happy(number: int) -> bool:
         number = pdi_function(number)
     return number == 1
 
-def confirmation():
-    while is_happy != True:
-        is_happy
-    else:
-        print('Hurray!! you found a happy number')
+is_happy(int(number_check))
+
+
+
 
 
